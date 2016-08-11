@@ -1,0 +1,2 @@
+To work on the site locally, run the command
+> jekyll serve --config _config.yml,_config_dev.yml

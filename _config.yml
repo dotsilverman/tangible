@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Tangible - a material exploration of our squishy, brittle, brilliant reality
+email: dot.silverman10@gmail.com
+description: A materials science website.
+url: "http://tangible.github.io"
+baseurl: ""
+github_username:  dotsilverman
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM

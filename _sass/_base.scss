@@ -1,0 +1,20 @@
+$content-width: 800px;
+$content-margin: 60px;
+$main-color: #0DBA9B; //teal
+//$main-color: #262626; //
+$font-style: 'Open Sans', sans-serif;
+$font-color: #262626; //black
+$link-color: #425469; //blue-gray
+$link-hover-color: $main-color;
+$heading-font: 'Muli', sans-serif;
+$heading-font-color: #425469; //blue-gray
+$light-color: #E7EDF4;
+$header-color:  #1D1425; //black
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<h4>Articles</h4>
+{% for post in site.posts %}
+		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+		<p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
+{% endfor %}
