@@ -9,8 +9,8 @@
 title: Tangible - a material exploration of our squishy, brittle, brilliant reality
 email: dot.silverman10@gmail.com
 description: A materials science website.
-url: "http://tangible.github.io"
-baseurl: ""
+baseurl: "/tangible"
+url: "http://dotsilverman.github.io"
 github_username:  dotsilverman
 
 # Build settings
